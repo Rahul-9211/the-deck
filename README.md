@@ -1,35 +1,115 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<h1 align=center>Bigspring Light Nextjs</h1> 
+<p align=center>Bigspring is a web development business template built in Nextjs. Perfect for Creative Agency, Marketing Agency, Design Studios, Digital Marketing Agencies, and other business service websites.</p>
+<h2 align="center"> <a target="_blank" href="https://bigspring-light-nextjs.vercel.app/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbigspring-light-nextjs.vercel.app%2F&form_factor=desktop">Page Speed (100%)🚀</a>
+</h2>
 
-## FOLIO
 
-[Live Demo](https://ayushsingh.co.in/)
 
-To cater to my goal of having my own portfolio website since 2016 🚀
+<p align=center>
+  <a href="https://github.com/vercel/next.js/releases/tag/v13.0.6" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=NEXTJS&message=13.0&color=000&logo=nextjs" />
+  </a>
 
-## How did I create this?
+  <a href="https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/themefisher/bigspring-light-nextjs" alt="license"></a>
 
-1. UI/UX is brainstormed using inspiration from winning portfolios from awwwards. High-fidelity mockup aggregating the ideas using Figma.
-2. This project uses React for simplicity to break down sections as components. Also uses next.js to achieve SSG. SVGs have been animated using CSS.
-3. Section scrolling and reveal animations uses GSAP. Card interactions use Tilt js. The timeline section was built using JS/SVGs and animated via GSAP.
-4. Optimised animations, layer management, repaints, and re-layouts using Chrome dev tools.
+  <img src="https://img.shields.io/github/languages/code-size/themefisher/bigspring-light-nextjs" alt="code size">
 
-## How to run on local?
+  <a href="https://github.com/themefisher/bigspring-light-nextjs/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/themefisher/bigspring-light-nextjs" alt="contributors"></a>
+</p>
 
-First, run the development server:
+![bigspring-light](https://demo.gethugothemes.com/thumbnails/bigspring-light.png)
 
-```bash
-npm run dev
-# or
-yarn dev
+## 🔑Key Features
+
+- 📄 9+ Pre-Designed Pages
+- ✨ Simple and Minimal
+- 📱 Fully Responsive
+- 🚀 Google Page Speed score 100! (Desktop)
+- 📊 Google Analytics support
+- 🗂️ Caching enabled
+- ✉️ Supports Contact Form
+- 🌍 SEO Friendly
+
+## 📄 9+ Pre-Designed Pages
+
+- 🏠 Home Page
+- 📚 Blog Page
+- 📝 Blog Single Page
+- 📞 Contact Page
+- 📄 Features Page
+- ❓ FAQ Page
+- 💰 Pricing Page
+- 🔒 Privacy Policy Page
+- 🔒 Terms and Condition Page
+
+<!-- installation -->
+## ⚙️Installation
+
+After downloading the template, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+
+### 🔧Install prerequisites (once for a machine)
+
+* **Node Installation:** [Install node js](https://nodejs.org/en/download/) [Recommended LTS version]
+
+### 🖥️Local setup
+
+After successfully installing those dependencies, open this template with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+
+* Install dependencies
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Run locally
 
-## Forked Versions from Community
+```
+npm run dev
+```
 
-Vue JS implemetation by sjtuli: [filio-vue](https://github.com/sjtuli/filio-vue)
-Same template with a slightly different flavor by shubh73: [devfolio](https://github.com/shubh73/devfolio)
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live-reload the browser when changes are saved.
 
-## A note on re-sharing
+## 🔨Production Build
 
-I have been refining the project using 7+ years of my learnings. While I appreciate the beauty of open source, due credits to the project will be appreciated if you plan to re-share the template. Copyright headers with author name should be included under the forked versions as well. Happy coding :)
+After finishing all the customization, you can create a production build by running this command.
+
+```
+npm run build
+```
+
+<!-- reporting issue -->
+## 🐞Reporting Issues
+
+We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/themefisher/bigspring-light-nextjs/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/bigspring-light-nextjs/issues).
+
+<!-- support -->
+## ✉️Technical Support or Questions (Paid)
+
+If you have questions or need help integrating the product please [contact us](https://themefisher.com/contact) instead of opening an issue.
+
+<!-- licence -->
+## 📄License
+
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+
+**Code License:** Released under the [MIT](https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+
+## 👨‍💻Hire Us
+
+Besides developing unique, blazing-fast Nextjs templates, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Nextjs.
+
+If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
+[Contact Page](https://themefisher.com/contact)**
+
+## 👉Nextjs Templates By Us
+
+<a href="https://themefisher.com/products/bookworm-light-nextjs">
+<img src="https://demo.gethugothemes.com/thumbnails/bookworm.png" height="300" width="400"/>
+<p>Bookworm Light Nextjs</p>
+</a>
+

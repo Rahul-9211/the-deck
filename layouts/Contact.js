@@ -1,21 +1,42 @@
 import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
-
+import { useState } from "react";
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
   const { contact_form_action } = config.params;
-
-  return (
+  const [name,SetName] = useState('');
+  const [email,SetEmail] = useState('');
+  const [subject,SetSubject] = useState('');
+  const [content ,SetContent] = useState('');
+    return (
     <section className="section">
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
             <form
-              className="contact-form"
-              method="POST"
-              action={contact_form_action}
+              // className="contact-form"
+              // method="POST"
+              // action='/api'
+              onSubmit={async (e)=>{
+                // console.log("working");
+                  e.preventDefault();
+                  const data = await fetch('/api',{
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                      name: name,
+                      email : email,
+                      subject : subject,
+                      content : content
+                    }),
+                  });
+                  const res = await data.json();
+                  console.log(res);
+              }}
             >
               <div className="mb-3">
                 <input
@@ -23,6 +44,10 @@ const Contact = ({ data }) => {
                   name="name"
                   type="text"
                   placeholder="Name"
+                  onChange={(e)=>{
+                    SetName(e.target.value)
+                    console.log(e.target.value);
+                  }}
                   required
                 />
               </div>
@@ -32,6 +57,10 @@ const Contact = ({ data }) => {
                   name="email"
                   type="email"
                   placeholder="Your email"
+                  onChange={(e)=>{
+                    SetEmail(e.target.value)
+                    console.log(e.target.value);
+                  }}
                   required
                 />
               </div>
@@ -41,6 +70,9 @@ const Contact = ({ data }) => {
                   name="subject"
                   type="text"
                   placeholder="Subject"
+                  onChange={(e)=>{
+                    SetSubject(e.target.value);
+                  }}
                   required
                 />
               </div>
@@ -48,6 +80,11 @@ const Contact = ({ data }) => {
                 <textarea
                   className="form-textarea w-full rounded-md"
                   rows="7"
+                  name="message"
+                  onChange={(e)=>{
+                    SetContent(e.target.value)
+                    console.log(content);
+                  }}
                   placeholder="Your message"
                 />
               </div>

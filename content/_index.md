@@ -1,7 +1,7 @@
 ---
 banner:
   title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  content: Struggling with website or app development hurdles? We've got you covered. At **Web Nest Studio**, we specialize in web and app development services tailored to your needs. From coding complexities to technical roadblocks, we handle it all. Let's turn your vision into reality. Partner with us today!
   image: /images/banner-art.svg
   button:
     label: "Contact Us"
@@ -13,27 +13,27 @@ feature:
   features:
   - name: "Clean Code"
     icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "We prioritize clean and efficient code for seamless performance"
   - name: "Object Oriented"
     icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Our approach ensures scalable and maintainable solutions"
   - name: "24h Service"
     icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "We're here round the clock to support your needs"
   - name: "Value for Money"
     icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Get maximum bang for your buck with our cost-effective solutions"
   - name: "Faster Response"
     icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Count on us for swift and responsive service"
   - name: "Cloud Support"
     icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Benefit from our expertise in leveraging cloud technologies for optimal results"
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Dynamic Web Solutions"
+    content: "Crafting visually stunning and highly functional websites tailored to your unique needs. From responsive designs to seamless user experiences, we bring your brand to life online with our expert web development services."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
@@ -43,8 +43,8 @@ services:
       label: Check it out
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Mobile App Development"
+    content: "Empower your business with custom mobile applications designed to engage your audience on the go. From iOS to Android, our mobile app development expertise ensures that your brand stays connected and accessible."
     images: 
       - "/images/service-slide-1.png"
     button:
@@ -52,8 +52,8 @@ services:
       label: Check it out
       link: /contact
   
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Digital Marketing"
+    content: "Drive traffic, increase leads, and boost conversions with our comprehensive digital marketing services. From SEO to PPC and social media, we craft tailored strategies to elevate your online presence and maximize your ROI."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
@@ -63,8 +63,8 @@ services:
       label: Check it out
       link: /contact
 
-  - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Web Portal"
+    content: "Streamline your operations and enhance user engagement with our customized web portal solutions. Whether it's for internal collaboration or customer interaction, we build intuitive portals that serve as your digital hub for success."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
@@ -83,7 +83,7 @@ workflow:
 # call_to_action
 call_to_action:
   title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  content: Your Vision, Our Expertise Let Web Nest Studio Bring Your Digital Dreams to Life.
   image: '/images/cta.svg'
   button:
     enable: true

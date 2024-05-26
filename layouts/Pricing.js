@@ -13,7 +13,7 @@ function Pricing({ data }) {
           <div className="section row -mt-10 justify-center md:mt-0">
             {plans.map((plan, index) => (
               <div
-                className={`col-12 md:col-4 ${
+                className={`col-8 md:col-3 ${
                   !plan.recommended ? "lg:px-0" : "col-recommended"
                 }`}
                 key={plan.title + index}
